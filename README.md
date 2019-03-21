@@ -2,8 +2,6 @@
 
 **This is a starter for Gatsby.js V2.**
 
-**The older V1 version of this starter can be found on the v1 branch**
-
 Gatsby.js V2 starter based on the Forty site template, designed by HTML5 UP. Check out https://codebushi.com/gatsby-starters/ for more Gatsby starters and templates.
 
 ## Preview
@@ -12,9 +10,8 @@ https://gatsby-forty.surge.sh
 
 ## Installation
 
-Install this starter (assuming Gatsby is installed) by running from your CLI:
-<br/>
-`gatsby new gatsby-starter-forty https://github.com/codebushi/gatsby-starter-forty`
+Install gatsby
+`npm install -g gatsby-cli`
 
 Run `gatsby develop` in the terminal to start the dev site.
 
@@ -26,14 +23,14 @@ Here is an example of using the grid, for a 3 column layout:
 
 ```
 <div className="grid-wrapper">
-    <div className="col-4">
-        <p>Content Here</p>
-    </div>
-    <div className="col-4">
-        <p>Content Here</p>
-    </div>
-    <div className="col-4">
-        <p>Content Here</p>
-    </div>
+  <div className="col-4">
+    <p>Content Here</p>
+  </div>
+  <div className="col-4">
+    <p>Content Here</p>
+  </div>
+  <div className="col-4">
+    <p>Content Here</p>
+  </div>
 </div>
 ```
