@@ -11,8 +11,8 @@ import pic10 from '../assets/images/pic10.jpg'
 const Services = props => (
   <Layout>
     <Helmet>
-      <title>Landing - Forty by HTML5 UP</title>
-      <meta name="description" content="Landing Page" />
+      <title>Addictive Services</title>
+      <meta name="description" content="Development services" />
     </Helmet>
 
     <BannerLanding />
