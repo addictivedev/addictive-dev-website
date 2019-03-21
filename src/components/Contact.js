@@ -32,14 +32,14 @@ const Contact = props => (
           <div className="contact-method">
             <span className="icon alt fa-envelope" />
             <h3>Email</h3>
-            <a href="#">information@untitled.tld</a>
+            <a href="mailto:info@pitchtarget.com">info@pitchtarget.com</a>
           </div>
         </section>
         <section>
           <div className="contact-method">
             <span className="icon alt fa-phone" />
             <h3>Phone</h3>
-            <span>(000) 000-0000 x12387</span>
+            <span>+390422789611</span>
           </div>
         </section>
         <section>
@@ -47,11 +47,20 @@ const Contact = props => (
             <span className="icon alt fa-home" />
             <h3>Address</h3>
             <span>
-              1234 Somewhere Road #5432
+              Via Sile 41
               <br />
-              Nashville, TN 00000
+              31056 Roncade, TV
               <br />
-              United States of America
+              Italy
+            </span>
+          </div>
+        </section>
+        <section>
+          <div className="contact-method">
+            <span className="icon alt fa-shopping-cart" />
+            <h3>Vat</h3>
+            <span>
+              IT04636600266
             </span>
           </div>
         </section>

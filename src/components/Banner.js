@@ -4,18 +4,18 @@ const Banner = props => (
   <section id="banner" className="major">
     <div className="inner">
       <header className="major">
-        <h1>Hi, my name is Forty</h1>
+        <h1>We transform your vision in a product</h1>
       </header>
       <div className="content">
         <p>
-          A responsive site template designed by HTML5 UP
+          Tailored software solutions for visionaries
           <br />
-          and released under the Creative Commons.
+          by visionaries engineers.
         </p>
         <ul className="actions">
           <li>
             <a href="#one" className="button next scrolly">
-              Get Started
+              Discover
             </a>
           </li>
         </ul>
