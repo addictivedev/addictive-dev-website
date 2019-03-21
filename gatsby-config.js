@@ -23,7 +23,9 @@ module.exports = {
     {
       resolve: `gatsby-plugin-s3`,
       options: {
-        bucketName: 'my-website-bucket'
+        bucketName: 'my-website-bucket',
+        protocol: "https",
+        hostname: "www.example.com",
       },
      }
   ],
