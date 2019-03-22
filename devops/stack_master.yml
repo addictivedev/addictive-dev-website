@@ -1,0 +1,11 @@
+stack_defaults:
+  tags:
+    stage: prod
+    project: addictive-dev
+    owner: addictive
+stacks:
+  eu-west-1:
+    addictive-dev-www:
+      template: pt-cloudformation-templates/static_websites/s3-static-website-with-cloudfront.yml
+      tags:
+        environment: production

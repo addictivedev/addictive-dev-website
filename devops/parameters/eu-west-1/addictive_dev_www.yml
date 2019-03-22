@@ -1,0 +1,4 @@
+OriginDomainName: "addictive.dev"
+IamCertificateId: ""
+HostedZoneId: ""
+AcmCertificateArn: arn:aws:acm:us-east-1:470031436598:certificate/10488d9a-17e3-444f-a776-282364ee6f48
