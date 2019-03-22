@@ -21,16 +21,14 @@ const Services = props => (
       <section id="one">
         <div className="inner">
           <header className="major">
-            <h2>Sed amet aliquam</h2>
+            <h2>From raw idea to scalable product</h2>
           </header>
           <p>
-            Nullam et orci eu lorem consequat tincidunt vivamus et sagittis
-            magna sed nunc rhoncus condimentum sem. In efficitur ligula tate
-            urna. Maecenas massa vel lacinia pellentesque lorem ipsum dolor.
-            Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis
-            libero. Nullam et orci eu lorem consequat tincidunt vivamus et
-            sagittis magna sed nunc rhoncus condimentum sem. In efficitur ligula
-            tate urna.
+            We provide professional full-cycle mobile and web development services,
+            from project analysis to post release support.
+            <br />
+            We have all the expertise you need to produce a fully
+            fledged, stable, and scalable product.
           </p>
         </div>
       </section>
@@ -42,14 +40,13 @@ const Services = props => (
           <div className="content">
             <div className="inner">
               <header className="major">
-                <h3>Orci maecenas</h3>
+                <h3>Analysis, wireframing, prototyping </h3>
               </header>
               <p>
-                Nullam et orci eu lorem consequat tincidunt vivamus et sagittis
-                magna sed nunc rhoncus condimentum sem. In efficitur ligula tate
-                urna. Maecenas massa sed magna lacinia magna pellentesque lorem
-                ipsum dolor. Nullam et orci eu lorem consequat tincidunt.
-                Vivamus et sagittis tempus.
+                We elicit your requirements, prepare a product specification,
+                and design wireframes. These wireframes are later transformed
+                into a prototype you can actually click on. Our prototypes
+                include animations, transitions, and interactions.
               </p>
               <ul className="actions">
                 <li>
@@ -68,14 +65,12 @@ const Services = props => (
           <div className="content">
             <div className="inner">
               <header className="major">
-                <h3>Rhoncus magna</h3>
+                <h3>Design and Development</h3>
               </header>
               <p>
-                Nullam et orci eu lorem consequat tincidunt vivamus et sagittis
-                magna sed nunc rhoncus condimentum sem. In efficitur ligula tate
-                urna. Maecenas massa sed magna lacinia magna pellentesque lorem
-                ipsum dolor. Nullam et orci eu lorem consequat tincidunt.
-                Vivamus et sagittis tempus.
+                With a strong grasp of frontend and backend technologies,
+                we create designs that are reinforced with high-quality code.
+                We specialize in JavaScript, React, React Native, Ruby on Rails, and Elixir development.
               </p>
               <ul className="actions">
                 <li>
@@ -94,14 +89,42 @@ const Services = props => (
           <div className="content">
             <div className="inner">
               <header className="major">
-                <h3>Sed nunc ligula</h3>
+                <h3>Testing</h3>
               </header>
               <p>
-                Nullam et orci eu lorem consequat tincidunt vivamus et sagittis
-                magna sed nunc rhoncus condimentum sem. In efficitur ligula tate
-                urna. Maecenas massa sed magna lacinia magna pellentesque lorem
-                ipsum dolor. Nullam et orci eu lorem consequat tincidunt.
-                Vivamus et sagittis tempus.
+                We apply both manual and automated testing to all digital
+                products we develop to make sure they are efficient, reliable,
+                stable, usable, secure, compatible, and maintainable.
+                We use the most cost-effective testing tools and techniques.
+              </p>
+              <ul className="actions">
+                <li>
+                  <Link to="/generic" className="button">
+                    Learn more
+                  </Link>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </section>
+        <section>
+          <Link to="/generic" className="image">
+            <img src={pic09} alt="" />
+          </Link>
+          <div className="content">
+            <div className="inner">
+              <header className="major">
+                <h3>Deployment and Post release support</h3>
+              </header>
+              <p>
+                We provide DevOps as a managed service for businesses that
+                run applications in the cloud. Our DevOps specialists ensure
+                that your system runs efficiently, with ~99.998% uptime and
+                rapid deployment of changes.
+                We also offer post-release support services available for a
+                period determined by you. Supporting and maintaining a product
+                after launch makes it possible for you to constantly improve
+                the product’s quality to meet the needs of end users
               </p>
               <ul className="actions">
                 <li>

@@ -8,9 +8,9 @@ const BannerLanding = props => (
       </header>
       <div className="content">
         <p>
-          Lorem ipsum dolor sit amet nullam consequat
+          We provide tailored web app development services
           <br />
-          sed veroeros. tempus adipiscing nulla.
+          for abitious projects
         </p>
       </div>
     </div>
