@@ -3,6 +3,11 @@ module.exports = {
     title: 'Addictive',
     author: 'Addictive s.r.l',
     description: 'A developer company',
+    keywords: ['developer', 'software', 'engineering', 'web application'],
+    titleTemplate: "%s | addictive.dev",
+    url: "https://www.addictive.dev", // No trailing slash allowed!
+    image: "/images/website-icon.png", // Path to your image you placed in the 'static' folder
+    twitterUsername: "@pitchtarget",
   },
   plugins: [
     'gatsby-plugin-react-helmet',

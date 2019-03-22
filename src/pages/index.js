@@ -1,8 +1,8 @@
 import React from 'react'
 import { Link } from 'gatsby'
-import Helmet from 'react-helmet'
 import Layout from '../components/layout'
 import Banner from '../components/Banner'
+import SEO from '../components/SEO'
 
 import pic01 from '../assets/images/pic01.jpg'
 import pic02 from '../assets/images/pic02.jpg'
@@ -15,14 +15,7 @@ class HomeIndex extends React.Component {
   render() {
     return (
       <Layout>
-        <Helmet
-          title="Addictive"
-          meta={[
-            { name: 'description', content: 'A developer company' },
-            { name: 'keywords', content: 'developer, software, engineering, web application' },
-          ]}
-        />
-
+        <SEO title={"Home"} />
         <Banner />
 
         <div id="main">

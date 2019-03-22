@@ -24,6 +24,12 @@ const Footer = props => (
             <span className="label">LinkedIn</span>
           </a>
         </li>
+        <li>
+          <a href="https://www.iubenda.com/privacy-policy/950075" target="_blank">Privacy Policy</a>
+        </li>
+        <li>
+          <a href="https://www.iubenda.com/privacy-policy/950075/cookie-policy?an=no&amp;s_ck=false" target="_blank">Cookie Policy</a>
+        </li>
       </ul>
     </div>
   </footer>
