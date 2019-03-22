@@ -7,6 +7,13 @@ import Menu from './Menu'
 import Contact from './Contact'
 import Footer from './Footer'
 import CookieConsent from "react-cookie-consent";
+import TagManager from 'react-gtm-module'
+
+const gtmArgs = {
+  gtmId: "GTM-KKHK9X",
+  auth: "qsHV_lc5rjbAUA17MMfn7g",
+  preview: "env-3",
+};
 
 class Layout extends React.Component {
   constructor(props) {
@@ -23,8 +30,7 @@ class Layout extends React.Component {
   componentDidMount() {
     if (localStorage.getItem('cookiesAccepted')) {
       console.log('cookies already accepted');
-      // set user data?
-      // window.dataLayer.push({event: this.state.name});
+      TagManager.initialize(gtmArgs);
     }
     this.timeoutId = setTimeout(() => {
       this.setState({ loading: '' })
@@ -45,8 +51,7 @@ class Layout extends React.Component {
 
   onAcceptCookies() {
     localStorage.setItem('cookiesAccepted', true);
-    // set user data?
-    // window.dataLayer.push({event: this.state.name});
+    TagManager.initialize(gtmArgs);
   }
 
   render() {
