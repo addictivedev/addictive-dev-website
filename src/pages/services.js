@@ -9,7 +9,7 @@ import pic09 from '../assets/images/pic09.jpg'
 import pic10 from '../assets/images/pic10.jpg'
 
 const Services = props => (
-  <Layout>
+  <Layout name={"services"}>
     <SEO title={"Services"} description={"Development services"} />
     <BannerLanding />
 

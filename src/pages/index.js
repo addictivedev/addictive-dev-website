@@ -14,7 +14,7 @@ import pic06 from '../assets/images/pic06.jpg'
 class HomeIndex extends React.Component {
   render() {
     return (
-      <Layout>
+      <Layout name={"home"}>
         <SEO title={"Home"} />
         <Banner />
 

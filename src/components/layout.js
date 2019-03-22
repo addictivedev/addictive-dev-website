@@ -6,18 +6,26 @@ import Header from './Header'
 import Menu from './Menu'
 import Contact from './Contact'
 import Footer from './Footer'
+import CookieConsent from "react-cookie-consent";
 
 class Layout extends React.Component {
   constructor(props) {
     super(props)
     this.state = {
+      name: props.name || 'generic_event',
       isMenuVisible: false,
       loading: 'is-loading',
     }
     this.handleToggleMenu = this.handleToggleMenu.bind(this)
+    this.onAcceptCookies = this.onAcceptCookies.bind(this)
   }
 
   componentDidMount() {
+    if (localStorage.getItem('cookiesAccepted')) {
+      console.log('cookies already accepted');
+      // set user data?
+      // window.dataLayer.push({event: this.state.name});
+    }
     this.timeoutId = setTimeout(() => {
       this.setState({ loading: '' })
     }, 100)
@@ -33,6 +41,12 @@ class Layout extends React.Component {
     this.setState({
       isMenuVisible: !this.state.isMenuVisible,
     })
+  }
+
+  onAcceptCookies() {
+    localStorage.setItem('cookiesAccepted', true);
+    // set user data?
+    // window.dataLayer.push({event: this.state.name});
   }
 
   render() {
@@ -51,6 +65,9 @@ class Layout extends React.Component {
           <Footer />
         </div>
         <Menu onToggleMenu={this.handleToggleMenu} />
+        <CookieConsent onAccept={this.onAcceptCookies}>
+          This website uses cookies to enhance the user experience.
+        </CookieConsent>
       </div>
     )
   }

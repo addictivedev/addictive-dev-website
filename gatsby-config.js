@@ -26,6 +26,18 @@ module.exports = {
     'gatsby-plugin-sass',
     'gatsby-plugin-offline',
     {
+      resolve: `gatsby-plugin-google-tagmanager`,
+      options: {
+        id: "GTM-KKHK9X",
+        // Include GTM in development.
+        // Defaults to false meaning GTM will only be loaded in production.
+        includeInDevelopment: true,
+        // Specify optional GTM environment details.
+        gtmAuth: "qsHV_lc5rjbAUA17MMfn7g",
+        gtmPreview: "env-3",
+      },
+    },
+    {
       resolve: `gatsby-plugin-s3`,
       options: {
         bucketName: 'my-website-bucket',
