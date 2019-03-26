@@ -63,7 +63,7 @@
 			}
 
 			&:before {
-				@include vendor('transition', 'opacity 0.5s ease');
+				@include vendor('transition', ('opacity 0.5s ease', 'background-color .05s ease'));
 				bottom: 0;
 				content: '';
 				display: block;
@@ -76,7 +76,7 @@
 			}
 
 			&:after {
-				background-color: transparentize(_palette(bg), 0.75);
+				// background-color: transparentize(_palette(bg), 0.5);
 				content: '';
 				display: block;
 				height: 100%;
@@ -87,11 +87,6 @@
 				z-index: 1;
 			}
 
-			&:hover {
-				&:before {
-					opacity: 0;
-				}
-			}
 
 			&.is-transitioning {
 				@include vendor('transform', 'scale(0.95)');
@@ -104,39 +99,26 @@
 				width: 60%;
 			}
 
-			&:nth-child(6n - 5) {
-				&:before {
-					background-color: _palette(accent1);
-				}
-			}
+			$style_sections:
+				(0, _palette(accent6)),
+				(1, _palette(accent5)),
+				(2, _palette(accent4)),
+				(3, _palette(accent3)),
+				(4, _palette(accent2)),
+				(5, _palette(accent1))
+			;
 
-			&:nth-child(6n - 4) {
-				&:before {
-					background-color: _palette(accent2);
-				}
-			}
-
-			&:nth-child(6n - 3) {
-				&:before {
-					background-color: _palette(accent3);
-				}
-			}
-
-			&:nth-child(6n - 2) {
-				&:before {
-					background-color: _palette(accent4);
-				}
-			}
-
-			&:nth-child(6n - 1) {
-				&:before {
-					background-color: _palette(accent5);
-				}
-			}
-
-			&:nth-child(6n) {
-				&:before {
-					background-color: _palette(accent6);
+			@each $s_id, $s_color in $style_sections {
+				&:nth-child(6n - #{$s_id}) {
+					&:hover {
+						&:before {
+							opacity: 0.9;
+							background-color: darken($s_color, 5%);
+						}
+					}
+					&:before {
+						background-color: $s_color;
+					}
 				}
 			}
 		}
