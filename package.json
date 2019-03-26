@@ -10,14 +10,12 @@
     "gatsby-plugin-react-helmet": "^3.0.2",
     "gatsby-plugin-s3": "^0.2.5",
     "gatsby-plugin-sass": "^2.0.7",
-    "i18next": "^15.0.7",
     "node-sass": "^4.11.0",
     "react": "^16.6.3",
     "react-cookie-consent": "^2.2.2",
     "react-dom": "^16.6.3",
     "react-gtm-module": "^2.0.4",
     "react-helmet": "^5.2.0",
-    "react-i18next": "^10.5.3"
   },
   "keywords": [
     "gatsby"
@@ -25,7 +23,7 @@
   "license": "MIT",
   "scripts": {
     "build": "gatsby build",
-    "develop": "gatsby develop",
+    "start": "gatsby develop",
     "format": "prettier --write '**/*.js'",
     "test": "echo \"Error: no test specified\" && exit 1",
     "deploy": "gatsby build && gatsby-plugin-s3 deploy"

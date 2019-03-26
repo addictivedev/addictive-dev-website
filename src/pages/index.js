@@ -3,7 +3,6 @@ import { Link } from 'gatsby'
 import Layout from '../components/layout'
 import Banner from '../components/Banner'
 import SEO from '../components/SEO'
-import { useTranslation } from "react-i18next";
 
 import pic01 from '../assets/images/pic01.jpg'
 import pic02 from '../assets/images/pic02.jpg'
@@ -14,8 +13,6 @@ import pic06 from '../assets/images/pic06.jpg'
 
 class HomeIndex extends React.Component {
   render() {
-    const { t } = useTranslation();
-    console.log('test', t);
     return (
       <Layout name={"home"}>
         <SEO title={"Home"} />
@@ -25,7 +22,7 @@ class HomeIndex extends React.Component {
           <section id="one" className="tiles">
             <article style={{ backgroundImage: `url(${pic01})` }}>
               <header className="major">
-                <h3>{t('test')}</h3>
+                <h3>TODO add translation</h3>
                 <p>
                   We provide both frontend and backend development services.
                   <br />
