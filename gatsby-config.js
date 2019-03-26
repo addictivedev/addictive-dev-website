@@ -28,9 +28,9 @@ module.exports = {
     {
       resolve: `gatsby-plugin-s3`,
       options: {
-        bucketName: 'my-website-bucket',
+        bucketName: 'addictive.dev',
         protocol: "https",
-        hostname: "www.example.com",
+        hostname: "addictive.dev",
       },
      }
   ],
