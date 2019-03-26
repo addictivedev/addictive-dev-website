@@ -1,8 +1,10 @@
 import React from 'react'
-import { Link } from 'gatsby'
 import Layout from '../components/layout'
 import Banner from '../components/Banner'
 import SEO from '../components/SEO'
+import { graphql } from 'gatsby';
+import { I18n } from 'react-i18next';
+import { Link, withI18next } from 'gatsby-plugin-i18next';
 
 import pic01 from '../assets/images/pic01.jpg'
 import pic02 from '../assets/images/pic02.jpg'
@@ -11,9 +13,9 @@ import pic04 from '../assets/images/pic04.jpg'
 import pic05 from '../assets/images/pic05.jpg'
 import pic06 from '../assets/images/pic06.jpg'
 
-class HomeIndex extends React.Component {
-  render() {
-    return (
+const HomeIndex = () => (
+  <I18n>
+    {t => (
       <Layout name={"home"}>
         <SEO title={"Home"} />
         <Banner />
@@ -22,7 +24,7 @@ class HomeIndex extends React.Component {
           <section id="one" className="tiles">
             <article style={{ backgroundImage: `url(${pic01})` }}>
               <header className="major">
-                <h3>TODO add translation</h3>
+                <h3>{t('test')}</h3>
                 <p>
                   We provide both frontend and backend development services.
                   <br />
@@ -103,8 +105,15 @@ class HomeIndex extends React.Component {
           </section>
         </div>
       </Layout>
-    )
-  }
-}
+    )}
+  </I18n>
+)
+export default withI18next()(HomeIndex);
 
-export default HomeIndex
+export const query = graphql`
+  query($lng: String!) {
+    locales: allLocale(filter: { lng: { eq: $lng }, ns: { eq: "messages" } }) {
+      ...TranslationFragment
+    }
+  }
+`;
