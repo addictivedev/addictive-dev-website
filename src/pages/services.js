@@ -32,7 +32,7 @@ const Services = () => (
           </section>
           <section id="two" className="spotlights">
             <section>
-              <Link to="/generic" className="image">
+              <Link to="/services#footer" className="image">
                 <img src={pic08} alt="" />
               </Link>
               <div className="content">
@@ -45,7 +45,7 @@ const Services = () => (
                   </p>
                   <ul className="actions">
                     <li>
-                      <Link to="/generic" className="button">
+                      <Link to="/services#footer" className="button">
                         {t('pages.services.service1_cta')}
                       </Link>
                     </li>
@@ -54,7 +54,7 @@ const Services = () => (
               </div>
             </section>
             <section>
-              <Link to="/generic" className="image">
+              <Link to="/services#footer" className="image">
                 <img src={pic09} alt="" />
               </Link>
               <div className="content">
@@ -67,7 +67,7 @@ const Services = () => (
                   </p>
                   <ul className="actions">
                     <li>
-                      <Link to="/generic" className="button">
+                      <Link to="/services#footer" className="button">
                         {t('pages.services.service2_cta')}
                       </Link>
                     </li>
@@ -76,7 +76,7 @@ const Services = () => (
               </div>
             </section>
             <section>
-              <Link to="/generic" className="image">
+              <Link to="/services#footer" className="image">
                 <img src={pic10} alt="" />
               </Link>
               <div className="content">
@@ -89,7 +89,7 @@ const Services = () => (
                   </p>
                   <ul className="actions">
                     <li>
-                      <Link to="/generic" className="button">
+                      <Link to="/services#footer" className="button">
                         {t('pages.services.service3_cta')}
                       </Link>
                     </li>
@@ -98,7 +98,7 @@ const Services = () => (
               </div>
             </section>
             <section>
-              <Link to="/generic" className="image">
+              <Link to="/services#footer" className="image">
                 <img src={pic09} alt="" />
               </Link>
               <div className="content">
@@ -111,7 +111,7 @@ const Services = () => (
                   </p>
                   <ul className="actions">
                     <li>
-                      <Link to="/generic" className="button">
+                      <Link to="/services#footer" className="button">
                         {t('pages.services.service3_cta')}
                       </Link>
                     </li>
