@@ -9,6 +9,7 @@ import { Link, withI18next } from 'gatsby-plugin-i18next';
 import pic08 from '../assets/images/pic08.jpg'
 import pic09 from '../assets/images/pic09.jpg'
 import pic10 from '../assets/images/pic10.jpg'
+import pic11 from '../assets/images/pic11.jpg'
 
 const Services = () => (
   <I18n>
@@ -99,7 +100,7 @@ const Services = () => (
             </section>
             <section>
               <Link to="/services#footer" className="image">
-                <img src={pic09} alt="" />
+                <img src={pic11} alt="" />
               </Link>
               <div className="content">
                 <div className="inner">

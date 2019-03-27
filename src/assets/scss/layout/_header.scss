@@ -48,18 +48,6 @@
 				margin-right: 0.325em;
 				padding: 0 0.125em 0 (_font(letter-spacing-alt) + 0.125em);
 			}
-
-			&:hover {
-				strong {
-					background-color: _palette(highlight);
-				}
-			}
-
-			&:active {
-				strong {
-					background-color: desaturate(darken(_palette(highlight), 15), 5);
-				}
-			}
 		}
 
 		nav {
