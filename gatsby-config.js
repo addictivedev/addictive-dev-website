@@ -26,12 +26,28 @@ module.exports = {
     'gatsby-plugin-sass',
     'gatsby-plugin-offline',
     {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        path: `${__dirname}/locale`,
+        name: `locale`,
+      },
+    },
+    {
       resolve: `gatsby-plugin-s3`,
       options: {
         bucketName: 'addictive.dev',
         protocol: "https",
         hostname: "addictive.dev",
       },
-     }
+    },
+    {
+      resolve: `gatsby-plugin-i18next`,
+      options: {
+        availableLngs: ['en', 'it'],
+        fallbackLng: 'en',
+        siteUrl: 'https://addictive.dev/',
+        debug: true,
+      },
+    },
   ],
 }

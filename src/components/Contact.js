@@ -1,6 +1,7 @@
 import React from 'react'
+import { translate } from 'react-i18next';
 
-const Contact = props => (
+const Contact = ({children, data, t}) => (
   <section id="contact">
     <div className="inner">
       <section className="grid-wrapper">
@@ -14,14 +15,14 @@ const Contact = props => (
         <section className="col-6">
           <div className="contact-method">
             <span className="icon alt fa-phone" />
-            <h3>Phone</h3>
+            <h3>{t('components.contact.phone')}</h3>
             <span>+390422789611</span>
           </div>
         </section>
         <section className="col-6">
           <div className="contact-method">
             <span className="icon alt fa-home" />
-            <h3>Address</h3>
+            <h3>{t('components.contact.address')}</h3>
             <span>
               Via Sile 41
               <br />
@@ -34,7 +35,7 @@ const Contact = props => (
         <section className="col-6">
           <div className="contact-method">
             <span className="icon alt fa-shopping-cart" />
-            <h3>Vat</h3>
+            <h3>{t('components.contact.vat')}</h3>
             <span>
               IT04636600266
             </span>
@@ -45,4 +46,4 @@ const Contact = props => (
   </section>
 )
 
-export default Contact
+export default translate()(Contact)
