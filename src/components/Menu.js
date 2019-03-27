@@ -2,7 +2,7 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import { translate } from 'react-i18next';
 import { Link } from 'gatsby-plugin-i18next';
-
+import Switcher from './Switcher';
 // <li>
 //   <Link onClick={props.onToggleMenu} to="/generic">
 //     Generic
@@ -35,6 +35,7 @@ const Menu = ({children, data, t, onToggleMenu}) => (
           </Link>
         </li>
       </ul>
+      <Switcher />
     </div>
     <button className="close" onClick={onToggleMenu}>
       {t('components.menu.close')}
