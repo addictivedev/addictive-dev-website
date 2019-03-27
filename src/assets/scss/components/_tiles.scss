@@ -56,10 +56,20 @@
 			}
 
 			.link.primary {
+				@include vendor ('transition', ('all .2s ease-in'));
         display: flex;
         border: 0;
         width: 100%;
         z-index: 4;
+				transform: scale(1);
+				backface-visibility: hidden;
+			}
+
+			.link.primary:hover {
+				@include vendor ('transition', ('all .2s ease-in'));
+				color: white !important;
+				text-shadow: 0 4px 8px rgba(0,0,0,0.15);
+				transform: scale(1.005);
 			}
 
 			&:before {

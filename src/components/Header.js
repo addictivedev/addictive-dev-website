@@ -6,7 +6,7 @@ import { translate } from 'react-i18next';
 const Header = ({children, data, t, onToggleMenu}) => (
   <header id="header" className="alt">
     <Link to="/" className="logo">
-      <strong>Addictive</strong> <span>dev</span>
+      <strong>Addictive</strong>
     </Link>
     <nav>
       <button className="menu-link" onClick={onToggleMenu}>
