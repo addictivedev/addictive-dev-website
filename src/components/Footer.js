@@ -1,6 +1,7 @@
 import React from 'react'
+import { translate } from 'react-i18next';
 
-const Footer = props => (
+const Footer = ({children, data, t}) => (
   <footer id="footer">
     <div className="inner">
       <ul className="icons">
@@ -35,4 +36,4 @@ const Footer = props => (
   </footer>
 )
 
-export default Footer
+export default translate()(Footer)
