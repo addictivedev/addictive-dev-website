@@ -105,15 +105,15 @@ const Services = () => (
               <div className="content">
                 <div className="inner">
                   <header className="major">
-                    <h3>{t('pages.services.service3_title')}</h3>
+                    <h3>{t('pages.services.service4_title')}</h3>
                   </header>
                   <p>
-                    {t('pages.services.service3_desc')}
+                    {t('pages.services.service4_desc')}
                   </p>
                   <ul className="actions">
                     <li>
                       <Link to="/services#footer" className="button">
-                        {t('pages.services.service3_cta')}
+                        {t('pages.services.service4_cta')}
                       </Link>
                     </li>
                   </ul>
