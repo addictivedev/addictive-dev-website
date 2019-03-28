@@ -17,7 +17,7 @@
   "pages.404.error": "You just hit a route that doesn&#39;t exist... the sadness.",
   "pages.index.tile1_title": "Web Applications",
   "pages.index.tile1_desc_1": "We provide both frontend and backend development services.",
-  "pages.index.tile1_desc_2": "Our stack includes Elixir, Phoenix, Ruby on Rails, Javascript, Ember.js, React,\nReact Native.",
+  "pages.index.tile1_desc_2": "Our stack includes Elixir, Phoenix, Ruby on Rails, Javascript, Ember.js, React,\nReact Native, Python, Django",
   "pages.index.tile2_title": "Mobile applications",
   "pages.index.tile2_desc_1": "We provide cross platform mobile apps using React Native, with\na touch of native development.",
   "pages.index.tile3_title": "UI/UX Design",

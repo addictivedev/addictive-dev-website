@@ -16,7 +16,7 @@ const Footer = ({children, data, t}) => (
           </a>
         </li>
         <li>
-          <a rel="noopener noreferrer" href="https://github.com/pitchtarget" target="_blank" className="icon alt fa-github">
+          <a rel="noopener noreferrer" href="https://github.com/addictivedev" target="_blank" className="icon alt fa-github">
             <span className="label">GitHub</span>
           </a>
         </li>

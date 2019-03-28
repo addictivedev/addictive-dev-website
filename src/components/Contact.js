@@ -34,7 +34,7 @@ const Contact = ({children, data, t}) => (
         </section>
         <section className="col-6">
           <div className="contact-method">
-            <span className="icon alt fa-shopping-cart" />
+            <span className="icon alt fa-info" />
             <h3>{t('components.contact.vat')}</h3>
             <span>
               IT04636600266
