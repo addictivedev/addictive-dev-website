@@ -2,7 +2,7 @@ import React from 'react'
 import { translate } from 'react-i18next';
 
 const BannerLanding = ({children, data, t}) => (
-  <section id="banner" className="style2">
+  <section id="banner" className="landing style2">
     <div className="inner">
       <header className="major">
         <h1>{t('components.banner_landing.title')}</h1>
