@@ -103,8 +103,11 @@
 				opacity: 0.75;
 			}
 		}
-		&.landing {
+		&.service {
 			@include vendor('background-image', 'url("../images/banner.jpg")');
+		}
+		&.use-cases {
+			@include vendor('background-image', 'url("../images/banner01.jpg")');
 		}
 
 		&.style1 { &:after { background-color: _palette(accent1); } }
