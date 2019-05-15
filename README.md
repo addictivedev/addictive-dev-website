@@ -4,14 +4,16 @@
 
 Gatsby.js V2 starter based on the Forty site template, designed by HTML5 UP. Check out https://codebushi.com/gatsby-starters/ for more Gatsby starters and templates.
 
-## Preview
+# Preview
 
 https://gatsby-forty.surge.sh
 
-## Installation
+# Installation
 
-Install gatsby
-`npm install -g gatsby-cli`
+* Install gatsby: `npm install -g gatsby-cli`
+* yarn --frozen-lockfile
+
+# Development
 
 Run `gatsby develop` in the terminal to start the dev site.
 
