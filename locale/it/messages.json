@@ -3,18 +3,28 @@
   "components.banner.first_caption": "Soluzioni software su misura per clienti visionari,",
   "components.banner.second_caption": "realizzate da sviluppatori visionari.",
   "components.banner.cta": "Scopri",
-  "components.banner_landing.title": "Servizi",
-  "components.banner_landing.first_caption": "Realizziamo web app su misura",
-  "components.banner_landing.second_caption": "per progetti ambiziosi",
+
+  "components.banner_landing.service.title": "Servizi",
+  "components.banner_landing.service.first_caption": "Realizziamo web app su misura",
+  "components.banner_landing.service.second_caption": "per progetti ambiziosi",
+
+  "components.banner_landing.useCases.title": "Portfolio",
+  "components.banner_landing.useCases.first_caption": "I progetti che abbiamo aiutato",
+  "components.banner_landing.useCases.second_caption": "e di cui siamo fieri",
+
   "components.contact.phone": "Telefono",
   "components.contact.address": "Indirizzo",
   "components.contact.vat": "P.iva",
+
   "components.menu.home": "Home",
   "components.menu.services": "Servizi",
+  "components.menu.useCases": "Use cases",
   "components.menu.cta": "Get Started",
   "components.menu.close": "Close",
+
   "pages.404.title": "NOT FOUND",
   "pages.404.error": "You just hit a route that doesn&#39;t exist... the sadness.",
+
   "pages.index.tile1_title": "Applicazioni Web",
   "pages.index.tile1_desc_1": "Forniamo servizi di sviluppo frontend e backend.",
   "pages.index.tile1_desc_2": "Le tecnologie che usiamo: Elixir, Phoenix, Ruby on Rails, Javascript, Ember.js, React,\nReact Native, Python, Django",
@@ -31,6 +41,7 @@
   "pages.index.prefooter_title": "Creaiamo appplicazioni, grandi e piccole",
   "pages.index.prefooter_body": "Offriamo servizi di sviluppo full-stack mobile e web: analisi dei requisiti, test, verifica della qualità e project management. Abbiamo l'esperienza per realizzare un prodotto completo, stabile e scalabile.",
   "pages.index.cta": "Inizia",
+
   "pages.services.title": "Dall'idea idea al prodotto scalabile",
   "pages.services.desc_part_1": "Forniamo un servizio completo di sviluppo mobile e web,\n dall'analisi alla supporto in fase di rilascio.",
   "pages.services.desc_part_2": "Abbiamo l'esperienza per realizzare un prodotto completo, stabile e scalabile.",
@@ -46,6 +57,7 @@
   "pages.services.service4_title": "Distribuzione e supporto post rilascio",
   "pages.services.service4_desc": "Forniamo servizi DevOps per applicationi in Cloud. I nostri specialisti si assicureranno che i tuoi servizi siano efficienti e i rilasci degli aggiornamenti siano rapidi.\n Offriamo un supporto post-rilascio per tutti i nostri prodotti. Il supporto e la manutenzione di un prodotto dopo il lancio ti consentono un miglioramento costante della qualità per rispondere ai nuovi bisogni dei tuoi utenti.",
   "pages.services.service4_cta": "Scopri di più",
+
   "pages.useCases.abp_title": "Pitchtarget - Automatic boost post",
   "pages.useCases.abp_labels": "Marketing automation, Facebook API",
   "pages.useCases.abp_desc": "Realizzazione di un Software as a Service (SaaS) per automatizzare la promozione dei post delle pagine Facebook. Sfruttare la visibilità organica e ottimizzare le campagne è estremamente utile. Con Pitchtarget potrai automatizzare tutti questi comportamenti migliorando le performance fino al 40% e riducendo dell'80% il tempo impiegato.",

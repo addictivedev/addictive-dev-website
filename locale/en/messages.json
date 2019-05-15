@@ -3,13 +3,14 @@
   "components.banner.first_caption": "Tailored software solutions for visionaries,",
   "components.banner.second_caption": "by visionaries engineers.",
   "components.banner.cta": "Discover",
+
   "components.banner_landing.service.title": "Services",
   "components.banner_landing.service.first_caption": "We provide tailored web app development services",
   "components.banner_landing.service.second_caption": "for abitious projects",
-  "components.banner_landing.useCases.title": "Success projects",
-  "components.banner_landing.useCases.first_caption": "Excepteur sint obcaecat cupiditat non proident culpa",
-  "components.banner_landing.useCases.second_caption": "salutantibus vitae elit libero",
 
+  "components.banner_landing.useCases.title": "Portfolio",
+  "components.banner_landing.useCases.first_caption": "Project we helpd",
+  "components.banner_landing.useCases.second_caption": "and we are proud of",
 
   "components.contact.phone": "Phone",
   "components.contact.address": "Address",
