@@ -8,7 +8,7 @@ import { Link, withI18next } from 'gatsby-plugin-i18next';
 
 import pic_abp from '../assets/images/pic-abp.jpg'
 import pic_li from '../assets/images/pic-li.jpg'
-import pic_fs from '../assets/images/pic-fs.jpg'
+import pic_ls from '../assets/images/pic-ls.jpg'
 
 
 const pageName = "use-cases";
@@ -65,6 +65,22 @@ const useCases = () => (
                       </a>
                     </li>
                   </ul>
+                </div>
+              </div>
+            </section>
+            <section id="leadsync">
+              <Link to={`/${pageName}#footer`} className="image">
+                <img src={pic_ls} alt="" />
+              </Link>
+              <div className="content">
+                <div className="inner">
+                  <header className="major">
+                    <h3>{t('pages.useCases.ls_title')}</h3>
+                    <h6><small className="labels">{t('pages.useCases.ls_labels')}</small></h6>
+                  </header>
+                  <p>
+                    {t('pages.useCases.ls_desc')}
+                  </p>
                 </div>
               </div>
             </section>
