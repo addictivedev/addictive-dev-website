@@ -49,5 +49,11 @@ module.exports = {
         debug: true,
       },
     },
+    {
+      resolve: `gatsby-plugin-favicon`,
+      options: {
+        logo: "./src/assets/images/favicon.png",
+      },
+    },
   ],
 }
