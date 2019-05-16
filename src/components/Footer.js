@@ -21,7 +21,7 @@ const Footer = ({children, data, t}) => (
           </a>
         </li>
         <li>
-          <a rel="noopener noreferrer" href="https://it.linkedin.com/company/pitchtarget" target="_blank" className="icon alt fa-linkedin">
+          <a rel="noopener noreferrer" href="https://www.linkedin.com/company/addictivedev" target="_blank" className="icon alt fa-linkedin">
             <span className="label">LinkedIn</span>
           </a>
         </li>
