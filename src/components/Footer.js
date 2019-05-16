@@ -6,12 +6,12 @@ const Footer = ({children, data, t}) => (
     <div className="inner">
       <ul className="icons">
         <li>
-          <a rel="noopener noreferrer" href="https://twitter.com/pitchtarget" target="_blank" className="icon alt fa-twitter">
+          <a rel="noopener noreferrer" href="https://twitter.com/AddictiveDev" target="_blank" className="icon alt fa-twitter">
             <span className="label">Twitter</span>
           </a>
         </li>
         <li>
-          <a rel="noopener noreferrer" href="https://www.facebook.com/pitchtarget/" target="_blank" className="icon alt fa-facebook">
+          <a rel="noopener noreferrer" href="https://www.facebook.com/addictivedotdev" target="_blank" className="icon alt fa-facebook">
             <span className="label">Facebook</span>
           </a>
         </li>
