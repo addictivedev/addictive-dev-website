@@ -21,8 +21,8 @@ const useCases = () => (
         <BannerLanding page="useCases" styles="use-cases style3"/>
 
         <div id="main">
-          <section id="two" className="spotlights">
-            <section>
+          <section className="spotlights">
+            <section id="automaticboostpost">
               <Link to={`/${pageName}#footer`} className="image">
                 <img src={pic_abp} alt="" />
               </Link>
@@ -45,7 +45,7 @@ const useCases = () => (
                 </div>
               </div>
             </section>
-            <section>
+            <section id="localimpact">
               <Link to={`/${pageName}#footer`} className="image">
                 <img src={pic_li} alt="" />
               </Link>
@@ -68,36 +68,37 @@ const useCases = () => (
                 </div>
               </div>
             </section>
-            <section>
-              <Link to={`/${pageName}#footer`} className="image">
-                <img src={pic_fs} alt="" />
-              </Link>
-              <div className="content">
-                <div className="inner">
-                  <header className="major">
-                    <h3>{t('pages.useCases.fs_title')}</h3>
-                    <h6><small className="labels">{t('pages.useCases.fs_labels')}</small></h6>
-                  </header>
-                  <p>
-                    {t('pages.useCases.fs_desc')}
-                  </p>
-                  <ul className="actions">
-                    <li>
-                      <a href="https://feedstock.com" target="_blank" className="button">
-                        {t('pages.useCases.fs_cta')}
-                      </a>
-                    </li>
-                  </ul>
-                </div>
-              </div>
-            </section>
-
           </section>
         </div>
       </Layout>
     )}
   </I18n>
 )
+
+// <section id="feedstock">
+//   <Link to={`/${pageName}#footer`} className="image">
+//     <img src={pic_fs} alt="" />
+//   </Link>
+//   <div className="content">
+//     <div className="inner">
+//       <header className="major">
+//         <h3>{t('pages.useCases.fs_title')}</h3>
+//         <h6><small className="labels">{t('pages.useCases.fs_labels')}</small></h6>
+//       </header>
+//       <p>
+//         {t('pages.useCases.fs_desc')}
+//       </p>
+//       <ul className="actions">
+//         <li>
+//           <a href="https://feedstock.com" target="_blank" className="button">
+//             {t('pages.useCases.fs_cta')}
+//           </a>
+//         </li>
+//       </ul>
+//     </div>
+//   </div>
+// </section>
+
 export default withI18next()(useCases);
 
 export const query = graphql`

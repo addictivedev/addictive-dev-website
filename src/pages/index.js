@@ -65,7 +65,7 @@ const HomeIndex = () => (
               </Link>
             </article>
             <article style={{ backgroundImage: `url(${pic05})` }}>
-              <Link to="/services" className="link primary">
+              <Link to="/use-cases#automaticboostpost" className="link primary">
                 <header className="major">
                   <h3>{t('pages.index.tile5_title')}</h3>
                   <p>
