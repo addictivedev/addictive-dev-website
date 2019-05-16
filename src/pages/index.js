@@ -18,7 +18,7 @@ const HomeIndex = () => (
     {t => (
       <Layout name={"home"}>
         <SEO title={"Home"} />
-        <Banner />
+        <Banner linkTo="/use-cases"/>
 
         <div id="main">
           <section id="one" className="tiles">
