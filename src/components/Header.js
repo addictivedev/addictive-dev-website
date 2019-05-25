@@ -1,18 +1,23 @@
 import React from 'react'
 import PropTypes from 'prop-types'
-import { Link } from 'gatsby'
+import { Link } from 'gatsby-plugin-i18next';
+import { translate } from 'react-i18next';
+import logo from '../assets/images/logo-addictive.svg';
 
-const Header = (props) => (
-    <header id="header" className="alt">
-        <Link to="/" className="logo"><strong>Forty</strong> <span>by HTML5 UP</span></Link>
-        <nav>
-            <a className="menu-link" onClick={props.onToggleMenu} href="javascript:;">Menu</a>
-        </nav>
-    </header>
+const Header = ({children, data, t, onToggleMenu}) => (
+  <header id="header" className="alt">
+    <Link to="/" className="logo">
+      <img className="logo--image" src={logo} alt="Addictive"/>
+    </Link>
+    <nav>
+      <button className="menu-link" onClick={onToggleMenu}>
+      </button>
+    </nav>
+  </header>
 )
 
 Header.propTypes = {
-    onToggleMenu: PropTypes.func
+  onToggleMenu: PropTypes.func,
 }
 
-export default Header
+export default translate()(Header)

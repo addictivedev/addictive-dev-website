@@ -1,8 +1,13 @@
 module.exports = {
   siteMetadata: {
-    title: "Gatsby Starter - Forty V2",
-    author: "Hunter Chang",
-    description: "A Gatsby.js V2 Starter based on Forty by HTML5 UP"
+    title: 'Addictive',
+    author: 'Addictive s.r.l',
+    description: 'A developer company',
+    keywords: ['developer', 'software', 'engineering', 'web application'],
+    titleTemplate: "%s | addictive.dev",
+    url: "https://www.addictive.dev", // No trailing slash allowed!
+    image: "/images/website-icon.png", // Path to your image you placed in the 'static' folder
+    twitterUsername: "@pitchtarget",
   },
   plugins: [
     'gatsby-plugin-react-helmet',
@@ -19,6 +24,36 @@ module.exports = {
       },
     },
     'gatsby-plugin-sass',
-    'gatsby-plugin-offline'
+    'gatsby-plugin-offline',
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        path: `${__dirname}/locale`,
+        name: `locale`,
+      },
+    },
+    {
+      resolve: `gatsby-plugin-s3`,
+      options: {
+        bucketName: 'addictive.dev',
+        protocol: "https",
+        hostname: "addictive.dev",
+      },
+    },
+    {
+      resolve: `gatsby-plugin-i18next`,
+      options: {
+        availableLngs: ['en', 'it'],
+        fallbackLng: 'en',
+        siteUrl: 'https://addictive.dev/',
+        debug: true,
+      },
+    },
+    {
+      resolve: `gatsby-plugin-favicon`,
+      options: {
+        logo: "./src/assets/images/favicon.png",
+      },
+    },
   ],
 }
