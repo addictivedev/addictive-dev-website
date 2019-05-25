@@ -1,3 +1,0 @@
-[submodule "devops/templates/pt-cloudformation-templates"]
-	path = devops/templates/pt-cloudformation-templates
-	url = git@bitbucket.org:pitchtarget/pt-cloudformation-templates.git
