@@ -1,7 +1,7 @@
 import React from 'react'
 import { translate } from 'react-i18next';
 
-const Banner = ({children, data, t}) => (
+const Banner = ({children, data, linkTo, t}) => (
   <section id="banner" className="major">
     <div className="inner">
       <header className="major">
@@ -15,7 +15,7 @@ const Banner = ({children, data, t}) => (
         </p>
         <ul className="actions">
           <li>
-            <a href="#one" className="button next scrolly">
+            <a href={linkTo} className="button next scrolly">
               {t('components.banner.cta')}
             </a>
           </li>

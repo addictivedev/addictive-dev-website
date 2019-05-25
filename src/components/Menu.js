@@ -27,6 +27,11 @@ const Menu = ({children, data, t, onToggleMenu}) => (
             {t('components.menu.services')}
           </Link>
         </li>
+        <li>
+          <Link onClick={onToggleMenu} to="/use-cases">
+            {t('components.menu.useCases')}
+          </Link>
+        </li>
       </ul>
       <ul className="actions vertical">
         <li>

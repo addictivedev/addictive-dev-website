@@ -16,7 +16,7 @@ const Services = () => (
     {t => (
       <Layout name={"services"}>
         <SEO title={"Services"} description={"Development services"} />
-        <BannerLanding />
+        <BannerLanding page="service" styles="service style2"/>
 
         <div id="main">
           <section id="one">

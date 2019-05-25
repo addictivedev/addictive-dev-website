@@ -3,18 +3,28 @@
   "components.banner.first_caption": "Tailored software solutions for visionaries,",
   "components.banner.second_caption": "by visionaries engineers.",
   "components.banner.cta": "Discover",
-  "components.banner_landing.title": "Services",
-  "components.banner_landing.first_caption": "We provide tailored web app development services",
-  "components.banner_landing.second_caption": "for abitious projects",
+
+  "components.banner_landing.service.title": "Services",
+  "components.banner_landing.service.first_caption": "We provide tailored web app development services",
+  "components.banner_landing.service.second_caption": "for abitious projects",
+
+  "components.banner_landing.useCases.title": "Portfolio",
+  "components.banner_landing.useCases.first_caption": "Project we helpd",
+  "components.banner_landing.useCases.second_caption": "and we are proud of",
+
   "components.contact.phone": "Phone",
   "components.contact.address": "Address",
   "components.contact.vat": "Vat",
+
   "components.menu.home": "Home",
   "components.menu.services": "Services",
+  "components.menu.useCases": "Use cases",
   "components.menu.cta": "Get Started",
   "components.menu.close": "Close",
+
   "pages.404.title": "NOT FOUND",
   "pages.404.error": "You just hit a route that doesn&#39;t exist... the sadness.",
+
   "pages.index.tile1_title": "Web Applications",
   "pages.index.tile1_desc_1": "We provide both frontend and backend development services.",
   "pages.index.tile1_desc_2": "Our stack includes Elixir, Phoenix, Ruby on Rails, Javascript, Ember.js, React,\nReact Native, Python, Django",
@@ -31,6 +41,7 @@
   "pages.index.prefooter_title": "We create apps, big and small",
   "pages.index.prefooter_body": "We offer full-stack mobile and web development services\ntogether with requirements analysis, quality assurance, and project\nmanagement. We have all the expertise you need to produce a fully\nfledged, stable, and scalable product.",
   "pages.index.cta": "Get Started",
+
   "pages.services.title": "From raw idea to scalable product",
   "pages.services.desc_part_1": "We provide professional full-cycle mobile and web development services,\nfrom project analysis to post release support.",
   "pages.services.desc_part_2": "We have all the expertise you need to produce a fully\nfledged, stable, and scalable product.",
@@ -45,5 +56,24 @@
   "pages.services.service3_cta": "Learn more",
   "pages.services.service4_title": "Deployment and Post release support",
   "pages.services.service4_desc": "We provide DevOps as a managed service for businesses that\nrun applications in the cloud. Our DevOps specialists ensure\nthat your system runs efficiently, with rapid deployment of changes.\nWe also offer post-release support services available for a\nperiod determined by you. Supporting and maintaining a product\nafter launch makes it possible for you to constantly improve\nthe product’s quality to meet the needs of end users.",
-  "pages.services.service4_cta": "Learn more"
+  "pages.services.service4_cta": "Learn more",
+
+  "pages.useCases.abp_title": "Pitchtarget - Automatic boost post",
+  "pages.useCases.abp_labels": "Marketing automation, Facebook API",
+  "pages.useCases.abp_desc": "Pitchtarget is a SaaS that we designed and built from scratch. It simplifies your advertising campaign on Facebook, with complete control on your promotional activity, so you can finally get rid of repetitive and time-consuming tasks.Forget your daily posting routine and bring your advertising campaign to the next level, saving up to 80% of your valuable time.",
+  "pages.useCases.abp_cta": "Visit website",
+
+  "pages.useCases.li_title": "Pitchtarget - Local impact",
+  "pages.useCases.li_labels": "Marketing automation, Facebook API, geolocal advertising",
+  "pages.useCases.li_desc": "Local impact is a SaaS that we designed and built from scratch. It allows creating hundreds of local ads from a single template on different Facebook pages in one click. Each ad will be customized with the page details (address, open hours, retail name,  website, etc). Often brands don’t involve their retail network into their digital campaigns, losing a great endorsement opportunity. With Local Impact a brand can create ads directly on the retail network pages also if they don’t own the page, they just need to connect the retail page with the tool.",
+  "pages.useCases.li_cta": "Visit website",
+
+  "pages.useCases.ls_title": "Pitchtarget - Lead sync",
+  "pages.useCases.ls_labels": "Marketing automation, Facebook API, Lead generation, Sync",
+  "pages.useCases.ls_desc": "Lead sync is a SaaS that we designed and built from scratch. It allows syncing all the leads collected with Facebook Lead Ads with your CRM or trigger other custom action like sending a welcome e-mail with a coupon.",
+
+  "pages.useCases.fs_title": "FeedStock ltd",
+  "pages.useCases.fs_labels": "Backend development",
+  "pages.useCases.fs_desc": "Me non paenitet nullum festiviorem excogitasse ad hoc. Praeterea iter est quasdam res quas ex communi. Plura mihi bona sunt, inclinet, amari petere vellent. Quam diu etiam furor iste tuus nos eludet? Non equidem invideo, miror magis posuere velit aliquet.",
+  "pages.useCases.fs_cta": "Visit website"
 }
