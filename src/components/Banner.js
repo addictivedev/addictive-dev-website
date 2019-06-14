@@ -5,13 +5,13 @@ const Banner = ({children, data, linkTo, intl}) => (
   <section id="banner" className="major">
     <div className="inner">
       <header className="major">
-        <h1>{intl.formattedMessage({id: 'components.banner.title'})}</h1>
+        <h1>{intl.formatMessage({id: 'components.banner.title'})}</h1>
       </header>
       <div className="content">
         <p>
-          {intl.formattedMessage({id: 'components.banner.first_caption'})}
+          {intl.formatMessage({id: 'components.banner.first_caption'})}
           <br />
-          {intl.formattedMessage({id: 'components.banner.second_caption'})}
+          {intl.formatMessage({id: 'components.banner.second_caption'})}
         </p>
         <ul className="actions">
           <li>

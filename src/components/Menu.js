@@ -1,31 +1,20 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 import { injectIntl, Link } from "gatsby-plugin-intl"
+import Language from './Language';
 
-// import Switcher from './Switcher';
-      // <Switcher />
-// <li>
-//   <Link onClick={props.onToggleMenu} to="/generic">
-//     Generic
-//   </Link>
-// </li>
-// <li>
-//   <Link onClick={props.onToggleMenu} to="/elements">
-//     Elements
-//   </Link>
-// </li>
 const Menu = ({children, data, intl, onToggleMenu}) => (
   <nav id="menu">
     <div className="inner">
       <ul className="links">
         <li>
           <Link onClick={onToggleMenu} to="/">
-            {intl.formattedMessage({id: 'components.menu.home'})}
+            {intl.formatMessage({id: 'components.menu.home'})}
           </Link>
         </li>
         <li>
           <Link onClick={onToggleMenu} to="/services">
-            {intl.formattedMessage({id: 'components.menu.services'})}
+            {intl.formatMessage({id: 'components.menu.services'})}
           </Link>
         </li>
         <li>
@@ -37,13 +26,14 @@ const Menu = ({children, data, intl, onToggleMenu}) => (
       <ul className="actions vertical">
         <li>
           <Link onClick={onToggleMenu} to="/" className="button special fit">
-            {intl.formattedMessage({id: 'components.menu.cta'})}
+            {intl.formatMessage({id: 'components.menu.cta'})}
           </Link>
         </li>
       </ul>
     </div>
+    <Language />
     <button className="close" onClick={onToggleMenu}>
-      {intl.formattedMessage({id: 'components.menu.close'})}
+      {intl.formatMessage({id: 'components.menu.close'})}
     </button>
   </nav>
 )
