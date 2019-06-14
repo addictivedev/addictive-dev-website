@@ -1,8 +1,9 @@
 import React from 'react'
 import PropTypes from 'prop-types'
-import { translate } from 'react-i18next';
-import { Link } from 'gatsby-plugin-i18next';
-import Switcher from './Switcher';
+import { injectIntl, Link } from "gatsby-plugin-intl"
+
+// import Switcher from './Switcher';
+      // <Switcher />
 // <li>
 //   <Link onClick={props.onToggleMenu} to="/generic">
 //     Generic
@@ -13,18 +14,18 @@ import Switcher from './Switcher';
 //     Elements
 //   </Link>
 // </li>
-const Menu = ({children, data, t, onToggleMenu}) => (
+const Menu = ({children, data, intl, onToggleMenu}) => (
   <nav id="menu">
     <div className="inner">
       <ul className="links">
         <li>
           <Link onClick={onToggleMenu} to="/">
-            {t('components.menu.home')}
+            {intl.formattedMessage({id: 'components.menu.home'})}
           </Link>
         </li>
         <li>
           <Link onClick={onToggleMenu} to="/services">
-            {t('components.menu.services')}
+            {intl.formattedMessage({id: 'components.menu.services'})}
           </Link>
         </li>
         <li>
@@ -36,14 +37,13 @@ const Menu = ({children, data, t, onToggleMenu}) => (
       <ul className="actions vertical">
         <li>
           <Link onClick={onToggleMenu} to="/" className="button special fit">
-            {t('components.menu.cta')}
+            {intl.formattedMessage({id: 'components.menu.cta'})}
           </Link>
         </li>
       </ul>
-      <Switcher />
     </div>
     <button className="close" onClick={onToggleMenu}>
-      {t('components.menu.close')}
+      {intl.formattedMessage({id: 'components.menu.close'})}
     </button>
   </nav>
 )
@@ -52,4 +52,4 @@ Menu.propTypes = {
   onToggleMenu: PropTypes.func,
 }
 
-export default translate()(Menu)
+export default injectIntl(Menu)

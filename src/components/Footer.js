@@ -1,7 +1,7 @@
 import React from 'react'
-import { translate } from 'react-i18next';
+import { injectIntl } from "gatsby-plugin-intl"
 
-const Footer = ({children, data, t}) => (
+const Footer = ({children, data, intl}) => (
   <footer id="footer">
     <div className="inner">
       <ul className="icons">
@@ -36,4 +36,4 @@ const Footer = ({children, data, t}) => (
   </footer>
 )
 
-export default translate()(Footer)
+export default injectIntl(Footer)

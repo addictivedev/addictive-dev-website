@@ -2,31 +2,27 @@ import React from 'react'
 import Layout from '../components/layout'
 import { graphql } from 'gatsby';
 import { I18n } from 'react-i18next';
-import { withI18next } from 'gatsby-plugin-i18next';
+import { injectIntl } from "gatsby-plugin-intl"
 
-const NotFoundPage = () => (
-  <I18n>
-    {t => (
-      <Layout>
-        <div id="main" className="alt">
-          <section id="one">
-            <div className="inner">
-              <h1>{t('pages.404.title')}</h1>
-              <p>{t('pages.404.error')}</p>
-            </div>
-          </section>
+const NotFoundPage = ({intl}) => (
+  <Layout>
+    <div id="main" className="alt">
+      <section id="one">
+        <div className="inner">
+          <h1>{intl.formattedMessage({id: 'pages.404.title'})}</h1>
+          <p>{intl.formattedMessage({id: 'pages.404.error'})}</p>
         </div>
-      </Layout>
-    )}
-  </I18n>
+      </section>
+    </div>
+  </Layout>
 )
 
-export default withI18next()(NotFoundPage);
+export default injectIntl(NotFoundPage);
 
-export const query = graphql`
-  query($lng: String!) {
-    locales: allLocale(filter: { lng: { eq: $lng }, ns: { eq: "messages" } }) {
-      ...TranslationFragment
-    }
-  }
-`;
+// export const query = graphql`
+//   query($lng: String!) {
+//     locales: allLocale(filter: { lng: { eq: $lng }, ns: { eq: "messages" } }) {
+//       ...TranslationFragment
+//     }
+//   }
+// `;

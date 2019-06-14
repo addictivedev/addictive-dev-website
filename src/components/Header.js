@@ -1,10 +1,9 @@
 import React from 'react'
 import PropTypes from 'prop-types'
-import { Link } from 'gatsby-plugin-i18next';
-import { translate } from 'react-i18next';
 import logo from '../assets/images/logo-addictive.svg';
+import { injectIntl, Link } from "gatsby-plugin-intl"
 
-const Header = ({children, data, t, onToggleMenu}) => (
+const Header = ({children, data, intl, onToggleMenu}) => (
   <header id="header" className="alt">
     <Link to="/" className="logo">
       <img className="logo--image" src={logo} alt="Addictive"/>
@@ -20,4 +19,4 @@ Header.propTypes = {
   onToggleMenu: PropTypes.func,
 }
 
-export default translate()(Header)
+export default injectIntl(Header)
