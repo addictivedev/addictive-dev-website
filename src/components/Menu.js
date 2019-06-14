@@ -30,8 +30,8 @@ const Menu = ({children, data, intl, onToggleMenu}) => (
           </Link>
         </li>
       </ul>
+      <Language />
     </div>
-    <Language />
     <button className="close" onClick={onToggleMenu}>
       {intl.formatMessage({id: 'components.menu.close'})}
     </button>

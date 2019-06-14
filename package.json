@@ -29,6 +29,7 @@
     "build": "gatsby build",
     "start": "gatsby develop",
     "clean": "gatsby clean",
+    "serve-build": "gatsby clean && gatsby build && gatsby serve",
     "serve": "gatsby serve",
     "format": "prettier --write '**/*.js'",
     "test": "echo \"Error: no test specified\" && exit 1",
