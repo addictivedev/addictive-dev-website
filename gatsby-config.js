@@ -41,12 +41,17 @@ module.exports = {
       },
     },
     {
-      resolve: `gatsby-plugin-i18next`,
+      resolve: `gatsby-plugin-intl`,
       options: {
-        availableLngs: ['en', 'it'],
-        fallbackLng: 'en',
-        siteUrl: 'https://addictive.dev/',
-        debug: true,
+        // language JSON resource path
+        path: `${__dirname}/locale`,
+        // supported language
+        languages: [`en`, `it`],
+        // language file path
+        defaultLanguage: `en`,
+        // option to redirect to `/en` when connecting `/`
+        redirect: true,
+        redirectComponent: require.resolve(`./src/components/redirect.js`),
       },
     },
     {
