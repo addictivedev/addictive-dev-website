@@ -19,7 +19,7 @@ const Menu = ({children, data, intl, onToggleMenu}) => (
         </li>
         <li>
           <Link onClick={onToggleMenu} to="/use-cases">
-            {t('components.menu.useCases')}
+            {intl.formatMessage('components.menu.useCases')}
           </Link>
         </li>
       </ul>
