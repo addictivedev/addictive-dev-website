@@ -7,8 +7,8 @@ const NotFoundPage = ({intl}) => (
     <div id="main" className="alt">
       <section id="one">
         <div className="inner">
-          <h1>{intl.formatMessage({id: 'pages.404.title'})}</h1>
-          <p>{intl.formatMessage({id: 'pages.404.error'})}</p>
+          <h1>{intl.formattedMessage({id: 'pages.404.title'})}</h1>
+          <p>{intl.formattedMessage({id: 'pages.404.error'})}</p>
         </div>
       </section>
     </div>

@@ -2,7 +2,7 @@ import React from 'react'
 import Layout from '../components/layout'
 import BannerLanding from '../components/BannerLanding'
 import SEO from '../components/SEO'
-import { injectIntl, Link } from "gatsby-plugin-intl"
+import { injectIntl, Link, FormattedMessage } from "gatsby-plugin-intl"
 
 import pic_abp from '../assets/images/pic-abp.jpg'
 import pic_li from '../assets/images/pic-li.jpg'
@@ -10,7 +10,7 @@ import pic_ls from '../assets/images/pic-ls.jpg'
 
 const pageName = "use-cases";
 
-const useCases = ({intl}) => (
+const UseCases = ({intl}) => (
   <Layout name={pageName}>
     <SEO title="Use cases" description={"Collection of development projects"} />
     <BannerLanding page="useCases" styles="use-cases style3"/>
@@ -24,16 +24,16 @@ const useCases = ({intl}) => (
           <div className="content">
             <div className="inner">
               <header className="major">
-                <h3>{intl.formattedMessage({id: 'pages.useCases.abp_title'})}</h3>
-                <h6><small className="labels">{intl.formattedMessage({id: 'pages.useCases.abp_labels'})}</small></h6>
+                <h3><FormattedMessage id='pages.useCases.abp_title' /></h3>
+                <h6><small className="labels"><FormattedMessage id='pages.useCases.abp_labels' /></small></h6>
               </header>
               <p>
-                {intl.formattedMessage({id: 'pages.useCases.abp_desc'})}
+                <FormattedMessage id='pages.useCases.abp_desc' />
               </p>
               <ul className="actions">
                 <li>
                   <a href="https://pitchtarget.com" target="_blank" rel="noopener noreferrer" className="button">
-                    {intl.formattedMessage({id: 'pages.useCases.abp_cta'})}
+                    <FormattedMessage id='pages.useCases.abp_cta' />
                   </a>
                 </li>
               </ul>
@@ -47,16 +47,16 @@ const useCases = ({intl}) => (
           <div className="content">
             <div className="inner">
               <header className="major">
-                <h3>{intl.formattedMessage({id: 'pages.useCases.li_title'})}</h3>
-                <h6><small className="labels">{intl.formattedMessage({id: 'pages.useCases.li_labels'})}</small></h6>
+                <h3><FormattedMessage id='pages.useCases.li_title' /></h3>
+                <h6><small className="labels"><FormattedMessage id='pages.useCases.li_labels' /></small></h6>
               </header>
               <p>
-                {intl.formattedMessage({id: 'pages.useCases.li_desc'})}
+                <FormattedMessage id='pages.useCases.li_desc' />
               </p>
               <ul className="actions">
                 <li>
                   <a href="https://localimpact.it" target="_blank" rel="noopener noreferrer" className="button">
-                    {intl.formattedMessage({id: 'pages.useCases.li_cta'})}
+                    <FormattedMessage id='pages.useCases.li_cta' />
                   </a>
                 </li>
               </ul>
@@ -70,11 +70,11 @@ const useCases = ({intl}) => (
           <div className="content">
             <div className="inner">
               <header className="major">
-                <h3>{intl.formattedMessage({id: 'pages.useCases.ls_title'})}</h3>
-                <h6><small className="labels">{intl.formattedMessage({id: 'pages.useCases.ls_labels'})}</small></h6>
+                <h3><FormattedMessage id='pages.useCases.ls_title' /></h3>
+                <h6><small className="labels"><FormattedMessage id='pages.useCases.ls_labels' /></small></h6>
               </header>
               <p>
-                {intl.formattedMessage({id: 'pages.useCases.ls_desc'})}
+                <FormattedMessage id='pages.useCases.ls_desc' />
               </p>
             </div>
           </div>
@@ -91,16 +91,16 @@ const useCases = ({intl}) => (
 //   <div className="content">
 //     <div className="inner">
 //       <header className="major">
-//         <h3>{intl.formattedMessage({id: 'pages.useCases.fs_title'})}</h3>
-//         <h6><small className="labels">{intl.formattedMessage({id: 'pages.useCases.fs_labels'})}</small></h6>
+//         <h3><FormattedMessage id='pages.useCases.fs_title' /></h3>
+//         <h6><small className="labels"><FormattedMessage id='pages.useCases.fs_labels' /></small></h6>
 //       </header>
 //       <p>
-//         {intl.formattedMessage({id: 'pages.useCases.fs_desc'})}
+//         <FormattedMessage id='pages.useCases.fs_desc' />
 //       </p>
 //       <ul className="actions">
 //         <li>
 //           <a href="https://feedstock.com" target="_blank" rel="noopener noreferrer" className="button">
-//             {intl.formattedMessage({id: 'pages.useCases.fs_cta'})}
+//             <FormattedMessage id='pages.useCases.fs_cta' />
 //           </a>
 //         </li>
 //       </ul>
@@ -108,4 +108,4 @@ const useCases = ({intl}) => (
 //   </div>
 // </section>
 
-export default injectIntl()(useCases);
+export default injectIntl(UseCases);

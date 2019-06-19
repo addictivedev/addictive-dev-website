@@ -4,8 +4,8 @@
   "version": "1.0.0",
   "author": "Hunter Chang",
   "dependencies": {
-    "gatsby-plugin-favicon": "^3.1.6",
     "gatsby": "2.8.8",
+    "gatsby-plugin-favicon": "^3.1.6",
     "gatsby-plugin-intl": "^0.2.4",
     "gatsby-plugin-manifest": "^2.0.9",
     "gatsby-plugin-offline": "^2.0.16",

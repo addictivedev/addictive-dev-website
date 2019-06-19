@@ -1,18 +1,18 @@
 import React from 'react'
 import PropTypes from 'prop-types'
-import { injectIntl } from "gatsby-plugin-intl"
+import { injectIntl, FormattedMessage } from "gatsby-plugin-intl"
 
 const BannerLanding = ({children, data, intl, page, styles}) => (
   <section id="banner" className={styles}>
     <div className="inner">
       <header className="major">
-        <h1>{intl.formattedMessage({id: `components.banner_landing.${page}.title`})}</h1>
+        <h1><FormattedMessage id={`components.banner_landing.${page}.title`} /></h1>
       </header>
       <div className="content">
         <p>
-          {intl.formattedMessage({id: `components.banner_landing.${page}.first_caption`})}
+          <FormattedMessage id={`components.banner_landing.${page}.first_caption`} />
           <br />
-          {intl.formattedMessage({id: `components.banner_landing.${page}.second_caption`})}
+          <FormattedMessage id={`components.banner_landing.${page}.second_caption`} />
         </p>
       </div>
     </div>

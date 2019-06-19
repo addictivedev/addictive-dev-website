@@ -1,5 +1,5 @@
 import React from 'react'
-import { injectIntl } from "gatsby-plugin-intl"
+import { injectIntl, FormattedMessage } from "gatsby-plugin-intl"
 
 const Contact = ({children, data, intl}) => (
   <section id="contact">
@@ -15,14 +15,14 @@ const Contact = ({children, data, intl}) => (
         <section className="col-6">
           <div className="contact-method">
             <span className="icon alt fa-phone" />
-            <h3>{intl.formatMessage({id: 'components.contact.phone'})}</h3>
+            <h3><FormattedMessage id='components.contact.phone' /></h3>
             <span>+390422789611</span>
           </div>
         </section>
         <section className="col-6">
           <div className="contact-method">
             <span className="icon alt fa-home" />
-            <h3>{intl.formatMessage({id: 'components.contact.address'})}</h3>
+            <h3><FormattedMessage id='components.contact.address' /></h3>
             <span>
               Via Sile 41
               <br />
@@ -35,7 +35,7 @@ const Contact = ({children, data, intl}) => (
         <section className="col-6">
           <div className="contact-method">
             <span className="icon alt fa-info" />
-            <h3>{intl.formatMessage({id: 'components.contact.vat'})}</h3>
+            <h3><FormattedMessage id='components.contact.vat' /></h3>
             <span>
               IT04636600266
             </span>
