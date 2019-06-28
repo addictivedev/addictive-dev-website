@@ -6,7 +6,7 @@ import Contact from './Contact'
 import Footer from './Footer'
 import CookieConsent from "react-cookie-consent";
 import TagManager from 'react-gtm-module'
-import { Head } from 'gatsby-plugin-i18next';
+// import { Head } from 'gatsby-plugin-i18next';
 
 const gtmArgs = {
   gtmId: "GTM-KKHK9X",
@@ -57,9 +57,9 @@ class Layout extends React.Component {
   render() {
     const { children } = this.props
 
+        // <Head hreflang />
     return (
       <>
-        <Head hreflang />
         <div
           className={`body ${this.state.loading} ${
             this.state.isMenuVisible ? 'is-menu-visible' : ''

@@ -1,18 +1,18 @@
 import React from 'react'
 import PropTypes from 'prop-types'
-import { translate } from 'react-i18next';
+import { injectIntl, FormattedMessage } from "gatsby-plugin-intl"
 
-const BannerLanding = ({children, data, t, page, styles}) => (
+const BannerLanding = ({children, data, intl, page, styles}) => (
   <section id="banner" className={styles}>
     <div className="inner">
       <header className="major">
-        <h1>{t(`components.banner_landing.${page}.title`)}</h1>
+        <h1><FormattedMessage id={`components.banner_landing.${page}.title`} /></h1>
       </header>
       <div className="content">
         <p>
-          {t(`components.banner_landing.${page}.first_caption`)}
+          <FormattedMessage id={`components.banner_landing.${page}.first_caption`} />
           <br />
-          {t(`components.banner_landing.${page}.second_caption`)}
+          <FormattedMessage id={`components.banner_landing.${page}.second_caption`} />
         </p>
       </div>
     </div>
@@ -23,4 +23,4 @@ BannerLanding.propTypes = {
   page: PropTypes.string,
 }
 
-export default translate()(BannerLanding)
+export default injectIntl(BannerLanding)
