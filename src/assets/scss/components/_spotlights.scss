@@ -68,6 +68,10 @@
 					@include vendor('align-items', 'flex-end');
 				}
 			}
+
+			&.spaced {
+				padding: 3rem;
+			}
 		}
 
 		@include breakpoint(xlarge) {

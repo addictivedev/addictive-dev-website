@@ -103,11 +103,40 @@
 				opacity: 0.75;
 			}
 		}
+
 		&.service {
 			@include vendor('background-image', 'url("../images/banner.jpg")');
 		}
 		&.use-cases {
 			@include vendor('background-image', 'url("../images/banner01.jpg")');
+		}
+		&.automaticboostpost {
+			@include vendor('background-image', 'url("../images/abp_cover.png")');
+		}
+		&.case {
+			height: 80vh;
+			min-height: 30em;
+			max-height: 50em;
+			background-position: bottom 20vh center;
+			background-size: 60vw;
+
+			@include breakpoint(large) {
+				height: 100vh;
+				background-size: 80vw;
+				background-position: bottom 40px center;
+			}
+
+			@include breakpoint(medium) {
+				height: 100vh;
+				background-size: 120vw;
+				background-position: bottom 20px right 100px;
+			}
+
+			@include breakpoint(small) {
+				height: 100vh;
+				background-size: 100vh;
+				background-position: bottom 20px right 100px;
+			}
 		}
 
 		&.style1 { &:after { background-color: _palette(accent1); } }

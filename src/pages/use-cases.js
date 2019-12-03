@@ -18,7 +18,7 @@ const UseCases = ({intl}) => (
     <div id="main">
       <section className="spotlights">
         <section id="automaticboostpost">
-          <Link to={`/${pageName}#footer`} className="image">
+          <Link to={`/use-cases/automatic-boost-post`} className="image">
             <img src={pic_abp} alt="" />
           </Link>
           <div className="content">
@@ -32,9 +32,9 @@ const UseCases = ({intl}) => (
               </p>
               <ul className="actions">
                 <li>
-                  <a href="https://pitchtarget.com" target="_blank" rel="noopener noreferrer" className="button">
+                  <Link to={`/use-cases/automatic-boost-post`} className="button">
                     <FormattedMessage id='pages.useCases.abp_cta' />
-                  </a>
+                  </Link>
                 </li>
               </ul>
             </div>

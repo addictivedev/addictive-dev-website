@@ -61,7 +61,7 @@
   "pages.useCases.abp_title": "Pitchtarget - Automatic boost post",
   "pages.useCases.abp_labels": "Marketing automation, Facebook API",
   "pages.useCases.abp_desc": "Pitchtarget is a SaaS that we designed and built from scratch. It simplifies your advertising campaign on Facebook, with complete control on your promotional activity, so you can finally get rid of repetitive and time-consuming tasks.Forget your daily posting routine and bring your advertising campaign to the next level, saving up to 80% of your valuable time.",
-  "pages.useCases.abp_cta": "Visit website",
+  "pages.useCases.abp_cta": "View project",
 
   "pages.useCases.li_title": "Pitchtarget - Local impact",
   "pages.useCases.li_labels": "Marketing automation, Facebook API, geolocal advertising",
@@ -75,5 +75,15 @@
   "pages.useCases.fs_title": "FeedStock ltd",
   "pages.useCases.fs_labels": "Backend development",
   "pages.useCases.fs_desc": "Me non paenitet nullum festiviorem excogitasse ad hoc. Praeterea iter est quasdam res quas ex communi. Plura mihi bona sunt, inclinet, amari petere vellent. Quam diu etiam furor iste tuus nos eludet? Non equidem invideo, miror magis posuere velit aliquet.",
-  "pages.useCases.fs_cta": "Visit website"
+  "pages.useCases.fs_cta": "Visit website",
+
+  "components.banner_landing.automaticboostpost.title": "title",
+  "components.banner_landing.automaticboostpost.first_caption": "Ab illo tempore, ab est sed immemorabili. Magna pars studiorum, prodita quaerimus.",
+  "components.banner_landing.automaticboostpost.second_caption": "Ab illo tempore, ab est sed immemorabili. Magna pars studiorum, prodita quaerimus.",
+  "pages.automaticboostpost.desc_part_1": "Quae vero auctorem tractata ab fiducia dicuntur. Cum sociis natoque penatibus et magnis dis parturient. Ab illo tempore, ab est sed immemorabili.",
+  "pages.automaticboostpost.desc_part_2": "Quae vero auctorem tractata ab fiducia dicuntur. Cum sociis natoque penatibus et magnis dis parturient. Ab illo tempore, ab est sed immemorabili.",
+  "pages.automaticboostpost.desc_part_3": "Quae vero auctorem tractata ab fiducia dicuntur. Cum sociis natoque penatibus et magnis dis parturient. Ab illo tempore, ab est sed immemorabili.",
+  "pages.automaticboostpost.prefooter_title": "Title",
+  "pages.automaticboostpost.prefooter_body": "Short description",
+  "pages.automaticboostpost.prefooter_cta": "Visit website"
 }
