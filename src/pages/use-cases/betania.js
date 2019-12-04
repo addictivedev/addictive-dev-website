@@ -25,7 +25,7 @@ const Betania = ({intl}) => (
           <div className="content">
             <div className="inner">
               <p>
-                <FormattedMessage id='pages.automaticboostpost.desc_part_1' />
+                <FormattedMessage id='pages.betania.desc_part_1' />
               </p>
             </div>
           </div>
@@ -37,7 +37,7 @@ const Betania = ({intl}) => (
           <div className="content">
             <div className="inner">
               <p>
-                <FormattedMessage id='pages.automaticboostpost.desc_part_2' />
+                <FormattedMessage id='pages.betania.desc_part_2' />
               </p>
             </div>
           </div>
@@ -49,7 +49,7 @@ const Betania = ({intl}) => (
           <div className="content">
             <div className="inner">
               <p>
-                <FormattedMessage id='pages.automaticboostpost.desc_part_3' />
+                <FormattedMessage id='pages.betania.desc_part_3' />
               </p>
             </div>
           </div>
@@ -61,28 +61,11 @@ const Betania = ({intl}) => (
           <div className="content">
             <div className="inner">
               <p>
-                <FormattedMessage id='pages.automaticboostpost.desc_part_4' />
+                <FormattedMessage id='pages.betania.desc_part_4' />
               </p>
             </div>
           </div>
         </section>
-      </section>
-      <section>
-        <div className="inner">
-          <header className="major">
-            <h2><FormattedMessage id='pages.automaticboostpost.prefooter_title' /></h2>
-          </header>
-          <p>
-            <FormattedMessage id='pages.automaticboostpost.prefooter_body' />
-          </p>
-          <ul className="actions">
-            <li>
-              <Link to="ww.pitchtarget.com" className="button next">
-                <FormattedMessage id='pages.automaticboostpost.prefooter_cta' />
-              </Link>
-            </li>
-          </ul>
-        </div>
       </section>
     </div>
   </Layout>

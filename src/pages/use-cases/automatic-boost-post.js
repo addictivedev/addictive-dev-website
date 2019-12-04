@@ -64,9 +64,9 @@ const AutomaticBoostPost = ({intl}) => (
           </p>
           <ul className="actions">
             <li>
-              <Link to="ww.pitchtarget.com" className="button next">
+              <a href="https://pitchtarget.com" className="button next">
                 <FormattedMessage id='pages.automaticboostpost.prefooter_cta' />
-              </Link>
+              </a>
             </li>
           </ul>
         </div>
