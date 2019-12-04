@@ -113,6 +113,9 @@
 		&.automaticboostpost {
 			@include vendor('background-image', 'url("../images/abp_cover.png")');
 		}
+		&.betania {
+			@include vendor('background-image', 'url("../images/bet_cover.png")');
+		}
 		&.case {
 			height: 80vh;
 			min-height: 30em;

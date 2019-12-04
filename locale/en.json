@@ -77,6 +77,11 @@
   "pages.useCases.fs_desc": "Me non paenitet nullum festiviorem excogitasse ad hoc. Praeterea iter est quasdam res quas ex communi. Plura mihi bona sunt, inclinet, amari petere vellent. Quam diu etiam furor iste tuus nos eludet? Non equidem invideo, miror magis posuere velit aliquet.",
   "pages.useCases.fs_cta": "Visit website",
 
+  "pages.useCases.bt_title": "Betania travel",
+  "pages.useCases.bt_labels": "UI-UX, frontend development, backend development",
+  "pages.useCases.bt_desc": "Me non paenitet nullum festiviorem excogitasse ad hoc. Praeterea iter est quasdam res quas ex communi. Plura mihi bona sunt, inclinet, amari petere vellent. Quam diu etiam furor iste tuus nos eludet? Non equidem invideo, miror magis posuere velit aliquet.",
+  "pages.useCases.bt_cta": "View project",
+
   "components.banner_landing.automaticboostpost.title": "title",
   "components.banner_landing.automaticboostpost.first_caption": "Ab illo tempore, ab est sed immemorabili. Magna pars studiorum, prodita quaerimus.",
   "components.banner_landing.automaticboostpost.second_caption": "Ab illo tempore, ab est sed immemorabili. Magna pars studiorum, prodita quaerimus.",
@@ -85,5 +90,16 @@
   "pages.automaticboostpost.desc_part_3": "Quae vero auctorem tractata ab fiducia dicuntur. Cum sociis natoque penatibus et magnis dis parturient. Ab illo tempore, ab est sed immemorabili.",
   "pages.automaticboostpost.prefooter_title": "Title",
   "pages.automaticboostpost.prefooter_body": "Short description",
-  "pages.automaticboostpost.prefooter_cta": "Visit website"
+  "pages.automaticboostpost.prefooter_cta": "Visit website",
+
+  "components.banner_landing.betania.title": "title",
+  "components.banner_landing.betania.first_caption": "Ab illo tempore, ab est sed immemorabili. Magna pars studiorum, prodita quaerimus.",
+  "components.banner_landing.betania.second_caption": "Ab illo tempore, ab est sed immemorabili. Magna pars studiorum, prodita quaerimus.",
+  "pages.betania.desc_part_1": "Quae vero auctorem tractata ab fiducia dicuntur. Cum sociis natoque penatibus et magnis dis parturient. Ab illo tempore, ab est sed immemorabili.",
+  "pages.betania.desc_part_2": "Quae vero auctorem tractata ab fiducia dicuntur. Cum sociis natoque penatibus et magnis dis parturient. Ab illo tempore, ab est sed immemorabili.",
+  "pages.betania.desc_part_3": "Quae vero auctorem tractata ab fiducia dicuntur. Cum sociis natoque penatibus et magnis dis parturient. Ab illo tempore, ab est sed immemorabili.",
+  "pages.betania.desc_part_4": "Quae vero auctorem tractata ab fiducia dicuntur. Cum sociis natoque penatibus et magnis dis parturient. Ab illo tempore, ab est sed immemorabili.",
+  "pages.betania.prefooter_title": "Title",
+  "pages.betania.prefooter_body": "Short description",
+  "pages.betania.prefooter_cta": "Visit website"
 }

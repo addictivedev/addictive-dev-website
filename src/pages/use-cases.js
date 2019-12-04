@@ -7,6 +7,7 @@ import { injectIntl, Link, FormattedMessage } from "gatsby-plugin-intl"
 import pic_abp from '../assets/images/pic-abp.jpg'
 import pic_li from '../assets/images/pic-li.jpg'
 import pic_ls from '../assets/images/pic-ls.jpg'
+import pic_bt from '../assets/images/pic-bt.jpg'
 
 const pageName = "use-cases";
 
@@ -76,6 +77,29 @@ const UseCases = ({intl}) => (
               <p>
                 <FormattedMessage id='pages.useCases.ls_desc' />
               </p>
+            </div>
+          </div>
+        </section>
+        <section id="betania">
+          <Link to={'/use-cases/betania'} className="image">
+            <img src={pic_bt} alt="" />
+          </Link>
+          <div className="content">
+            <div className="inner">
+              <header className="major">
+                <h3><FormattedMessage id='pages.useCases.bt_title' /></h3>
+                <h6><small className="labels"><FormattedMessage id='pages.useCases.bt_labels' /></small></h6>
+              </header>
+              <p>
+                <FormattedMessage id='pages.useCases.bt_desc' />
+              </p>
+              <ul className="actions">
+                <li>
+                  <Link to={'/use-cases/betania'} className="button">
+                    <FormattedMessage id='pages.useCases.bt_cta' />
+                  </Link>
+                </li>
+              </ul>
             </div>
           </div>
         </section>
