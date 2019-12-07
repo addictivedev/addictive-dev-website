@@ -9,7 +9,7 @@ const Contact = ({children, data, intl}) => (
           <div className="contact-method">
             <span className="icon alt fa-envelope" />
             <h3>Email</h3>
-            <a href="mailto:info@pitchtarget.com">info@addictive.dev</a>
+            <a href="mailto:info@addictive.dev">info@addictive.dev</a>
           </div>
         </section>
         <section className="col-6">
