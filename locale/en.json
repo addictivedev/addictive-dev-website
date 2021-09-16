@@ -12,6 +12,10 @@
   "components.banner_landing.useCases.first_caption": "Project we helpd",
   "components.banner_landing.useCases.second_caption": "and we are proud of",
 
+  "components.banner_landing.project_rotzo.title": "Project Re-living the past",
+  "components.banner_landing.project_rotzo.first_caption": "Gamification museum of Bostel di Rotzo",
+  "components.banner_landing.project_rotzo.second_caption": "Project duration: 05.08.2019 – 17.07.2021",
+
   "components.contact.phone": "Phone",
   "components.contact.address": "Address",
   "components.contact.vat": "Vat",
@@ -75,5 +79,25 @@
   "pages.useCases.fs_title": "FeedStock ltd",
   "pages.useCases.fs_labels": "Backend development",
   "pages.useCases.fs_desc": "Me non paenitet nullum festiviorem excogitasse ad hoc. Praeterea iter est quasdam res quas ex communi. Plura mihi bona sunt, inclinet, amari petere vellent. Quam diu etiam furor iste tuus nos eludet? Non equidem invideo, miror magis posuere velit aliquet.",
-  "pages.useCases.fs_cta": "Visit website"
+  "pages.useCases.fs_cta": "Visit website",
+
+  "components.project_1.title_1": "Project Re-living the past",
+  "components.project_1.first_caption": "No longer a unique “museum itinerary“, but everyone can move from simple “story listening“ to ubiquitous “story living“,",
+  "components.project_1.second_caption": "experiencing a sensory experience in space in a personal way.",
+  "components.project_1.cta": "View project",
+
+  "pages.projects.rotzo.title": "Progetto Re-living the past",
+  "pages.projects.rotzo.key_points": "The project involved the creation of the PILOT plant for a series of installations at the “Bostel di Rotzo“ to create:",
+  "pages.projects.rotzo.first_point": "a direct experience of play and education through gamification;",
+  "pages.projects.rotzo.second_point": "a space-time experience of entry and exit between the real world and augmented / virtual reality, which thrills visitors by allowing them to relive the past with a playful approach, but faithful to the contents;",
+  "pages.projects.rotzo.third_point": "the reconstruction of an Iron Age building on a 1: 1 scale to be used as an experiential space (small house 12 × 9);",
+  "pages.projects.rotzo.fourth_point": "creation of an escape-room",
+  "pages.projects.rotzo.first_paragraph": "The founding and innovative factor of the project was the high degree of interaction between different but no longer antithetical sectors (also thanks to projects like this one), such as archeology, architecture, construction, tourism, neuroscience, new technologies and virtualization. There is no cultural reality, at least in Europe, structured in transferring its knowledge through interacting and highly technological gamification strategies.",
+  "pages.projects.rotzo.second_paragraph": "Unlike the AR installations present in other sites, the technology developed is at the total service of the visitor to form his personal “story living“ at the Museum and Site, and varies according to the “levels“ and evolves together with the visitor, making him know different levels of interaction every time he returns to the site, living a sensory experience in the space itself in a personalized way regardless of the conditions of mobility or visitability.",
+  "pages.projects.rotzo.third_paragraph": "The site was already equipped with a distributed AR system that models historical elements on a meta-virtual-real plane, optimizing the distribution of content and the final Quality-of-Experience. The challenge was to customize these contents according to the user and to insert them within a real game.",
+  "pages.projects.rotzo.fourth_paragraph": "No longer a unique “museum itinerary“, but everyone can move from simple “story listening“ to ubiquitous “story living“, experiencing a sensory experience in space in a personal way.",
+  "pages.projects.rotzo.fifth_paragraph": "The construction of the new archaelogical plant, or a new 1: 1 scale house, is a further reason for the involvement of the users who were able to witness the implementation phases of a real protohistoric structure. On the one hand, witnessing an approach of this type brought to life the village itself in which professionals in the field of cultural heritage identified themselves as inhabitants and protohistoric builders, on the other hand it allowed the visitor to deepen parts of history not taken into account. consideration from museum exhibits such as daily and working life.",
+  "pages.projects.rotzo.sixth_paragraph": "Fundamental to the project is the aspect of play and collaboration which represents one of the main ways in which children and adults learn, with greater effectiveness when it is completed together with other people. To this end, a VR Didactic Escape Room was conceived inside the Museum, which completes and enriches the Cultural Heritage area dedicated to new immersive technologies and gives a new way of making learning.",
+  "pages.projects.rotzo.first_caption": "Asse 1. Research, technological development and innovation",
+  "pages.projects.rotzo.second_caption": "Action 1.1.4. Support for R&D activities for the development of new sustainable technologies, new products and services"
 }

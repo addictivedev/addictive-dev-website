@@ -23,6 +23,11 @@
 		position: relative;
 		top: -3.25em;
 
+		&.projects {
+			margin-bottom: 0;
+			top: 0;
+		}
+
 		&:after {
 			@include vendor('transition', 'opacity #{_duration(banner)} ease');
 			@include vendor('transition-delay', '0.75s');
@@ -102,6 +107,9 @@
 			&.alt {
 				opacity: 0.75;
 			}
+		}
+		&.project-rotzo {
+			@include vendor('background-image', 'url("../images/banner02.jpg")');
 		}
 		&.service {
 			@include vendor('background-image', 'url("../images/banner.jpg")');

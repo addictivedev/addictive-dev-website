@@ -12,6 +12,10 @@
   "components.banner_landing.useCases.first_caption": "I progetti che abbiamo aiutato",
   "components.banner_landing.useCases.second_caption": "e di cui siamo fieri",
 
+  "components.banner_landing.project_rotzo.title": "Gamification museo Bostel di Rotzo",
+  "components.banner_landing.project_rotzo.first_caption": "Inizio progetto: 05.08.2019",
+  "components.banner_landing.project_rotzo.second_caption": "Fine progetto: 17.07.2021",
+
   "components.contact.phone": "Telefono",
   "components.contact.address": "Indirizzo",
   "components.contact.vat": "P.iva",
@@ -75,5 +79,25 @@
   "pages.useCases.fs_title": "FeedStock ltd",
   "pages.useCases.fs_labels": "Backend development",
   "pages.useCases.fs_desc": "Me non paenitet nullum festiviorem excogitasse ad hoc. Praeterea iter est quasdam res quas ex communi. Plura mihi bona sunt, inclinet, amari petere vellent. Quam diu etiam furor iste tuus nos eludet? Non equidem invideo, miror magis posuere velit aliquet.",
-  "pages.useCases.fs_cta": "Visit website"
+  "pages.useCases.fs_cta": "Visit website",
+
+  "components.project_1.title": "Progetto Re-living the past",
+  "components.project_1.first_caption": "Non più un “percorso museale” univoco, ma ognuno potrà passare dal semplice “story listening” allo “story living” ubiquo,",
+  "components.project_1.second_caption": "vivendo un’esperienza sensoriale nello spazio in maniera personale.",
+  "components.project_1.cta": "Scopri",
+
+  "pages.projects.rotzo.title": "Progetto Re-living the past",
+  "pages.projects.rotzo.key_points": "Il progetto ha previsto la creazione dell’impianto PILOTA per una serie di installazioni presso il “Bostel di Rotzo” per creare:",
+  "pages.projects.rotzo.first_point": "un’esperienza diretta di gioco ed educazione tramite gamification;",
+  "pages.projects.rotzo.second_point": "un’esperienza spazio-temporale di entrata ed uscita tra mondo reale e realtà aumentata/virtuale, che emozioni i visitatori consentendogli di rivivere il passato con un approccio ludico, ma fedele ai contenuti;",
+  "pages.projects.rotzo.third_point": "la ricostruzione di un edificio dell’Età del Ferro in scala 1:1 da usare come spazio esperienziale (casetta 12×9);",
+  "pages.projects.rotzo.fourth_point": "creazione di un escape-room",
+  "pages.projects.rotzo.first_paragraph": "Fattore fondante e innovativo del progetto è stato l’alto grado di interazione tra settori diversi ma ormai non più antitetici (anche per merito di progetti come questo), quali archeologia, architettura, edilizia, turismo, neuroscienze, nuove tecnologie e virtualizzazione. Non esiste, per lo meno in Europa, alcuna realtà culturale strutturata nel trasferire i propri saperi mediante strategie di gamificazione interagenti e ad alto valore tecnologico.",
+  "pages.projects.rotzo.second_paragraph": "A differenza delle installazioni AR presenti in altri siti, la tecnologia sviluppata è al totale servizio del visitatore per formare il suo personale “story living” al Museo e Sito, e varia a seconda dei “livelli” ed  evolve assieme al visitatore, facendogli conoscere differenti livelli di interazione ogni qualvolta torna al sito, vivendo un’esperienza sensoriale nello spazio stesso in maniera personalizzata a prescindere dalle condizioni di mobilità o visitabilità.",
+  "pages.projects.rotzo.third_paragraph": "Il sito era già dotato di un sistema AR distribuito che modella su di un piano meta-virtuale-reale elementi storici ottimizzando la distribuzione dei contenuti e la Quality-of-Experience finale. La sfida è stata quella di personalizzare tali contenuti a seconda dell’utente e di inserirli all’interno di un vero e proprio gaming.",
+  "pages.projects.rotzo.fourth_paragraph": "Non più un “percorso museale” univoco, ma ognuno potrà passare dal semplice “story listening” allo “story living” ubiquo, vivendo un’esperienza sensoriale nello spazio in maniera personale.",
+  "pages.projects.rotzo.fifth_paragraph": "La costruzione del nuovo impianto archeosperimentale, ovvero una nuova casetta in scala 1:1 è ulteriore motivo di coinvolgimento degli utenti che hanno potuto assistere alle fasi di messa in opera di una vera e propria struttura protostorica. Assistere a un approccio di questo tipo da un lato ha fatto prendere vita al villaggio stesso in cui professionisti nell’ambito dei beni culturali si sono immedesimati quali abitanti e costruttori protostorici, dall’altro ha permesso al visitatore di approfondire parti della storia non prese in considerazione dalle esposizioni museali come la vita quotidiana e lavorativa.",
+  "pages.projects.rotzo.sixth_paragraph": "Fondamentale per il progetto è l’aspetto del gioco e della collaborazione che rappresenta una delle principali modalità attraverso le quali ragazzi e adulti apprendono, con efficacia maggiore quando viene portata a termine insieme ad altre persone. A tal fine è stata concepita all’interno del Museo una Escape Room Didattica VR, che va a completare e arricchire l’area del Bene Culturale dedicata alle nuove tecnologie immersive e conferisce un nuovo modo di far apprendere.",
+  "pages.projects.rotzo.first_caption": "Asse 1. Ricerca, sviluppo tecnologico ed innovazione",
+  "pages.projects.rotzo.second_caption": "Azione 1.1.4. Sostegno alle attività di R&S per lo sviluppo di nuove tecnologie sostenibili, di nuovi prodotti e servizi"
 }
