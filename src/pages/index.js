@@ -118,7 +118,7 @@ const Index = ({ intl }) => (
         <img src={pic07} alt="POR - logo regione veneto" width="180px" />
       </div>
     </section>
-      <section id="three">
+      <section id="two">
         <div className="inner">
           <header className="major">
             <h2>

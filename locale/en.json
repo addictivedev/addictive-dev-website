@@ -12,10 +12,9 @@
   "components.banner_landing.useCases.first_caption": "Project we helpd",
   "components.banner_landing.useCases.second_caption": "and we are proud of",
 
-  "components.banner_landing.project_rotzo.title": "Project Re-living the past",
-  "components.banner_landing.project_rotzo.first_caption": "Gamification museum of Bostel di Rotzo",
-  "components.banner_landing.project_rotzo.second_caption": "Project duration: 05.08.2019 – 17.07.2021",
-
+  "components.banner_landing.project_rotzo.title": "Gamification museum of Bostel di Rotzo",
+  "components.banner_landing.project_rotzo.first_caption": "Project starts: 05.08.2019",
+  "components.banner_landing.project_rotzo.second_caption": "Project ends: 17.07.2021",
   "components.contact.phone": "Phone",
   "components.contact.address": "Address",
   "components.contact.vat": "Vat",
@@ -81,7 +80,7 @@
   "pages.useCases.fs_desc": "Me non paenitet nullum festiviorem excogitasse ad hoc. Praeterea iter est quasdam res quas ex communi. Plura mihi bona sunt, inclinet, amari petere vellent. Quam diu etiam furor iste tuus nos eludet? Non equidem invideo, miror magis posuere velit aliquet.",
   "pages.useCases.fs_cta": "Visit website",
 
-  "components.project_1.title_1": "Project Re-living the past",
+  "components.project_1.title": "Project Re-living the past",
   "components.project_1.first_caption": "No longer a unique “museum itinerary“, but everyone can move from simple “story listening“ to ubiquitous “story living“,",
   "components.project_1.second_caption": "experiencing a sensory experience in space in a personal way.",
   "components.project_1.cta": "View project",
