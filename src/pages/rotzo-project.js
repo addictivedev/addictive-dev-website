@@ -26,6 +26,16 @@ const Index = ({ intl }) => {
                 id={`pages.projects.${project}.second_caption`}
               />
             </h5>
+            <h5>
+              <FormattedMessage
+                id={`pages.projects.${project}.third_caption`}
+              />
+            </h5>
+            <h5>
+              <FormattedMessage
+                id={`pages.projects.${project}.fourth_caption`}
+              />
+            </h5>
           </div>
         </section>
         <section id="one">
