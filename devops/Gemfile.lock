@@ -64,7 +64,7 @@ GEM
     highline (1.7.10)
     i18n (1.6.0)
       concurrent-ruby (~> 1.0)
-    jmespath (1.4.0)
+    jmespath (1.6.1)
     mini_portile2 (2.4.0)
     minitest (5.11.3)
     multi_json (1.13.1)
