@@ -52,7 +52,7 @@ GEM
       highline (~> 1.7.2)
     concurrent-ruby (1.1.5)
     deep_merge (1.2.1)
-    diffy (3.3.0)
+    diffy (3.4.2)
     dotgpg (0.7.0)
       gpgme
       thor
